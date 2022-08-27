@@ -1,0 +1,110 @@
+/* CSS de la parte "Quien soy" */
+header{
+    margin-left: auto; margin-right: auto; border:3px dashed ;
+    border-radius:22px; border-width:5px; border-color: #e07e70;
+    }
+.titulo{position: inline;top: initial;display: flex; margin: 0;}
+#Nombre{
+    color:rgb(241, 90, 14);
+    font-weight:bold; 
+}
+#Frase{
+    color:#92e0bb;
+    font-weight:bold;
+    text-decoration: underline; margin-top: 0;
+}
+.botones{display: flex; margin-left: auto;}
+.boton{font-size:5mm; padding: 10px 30px; display:flex;
+    margin: 10px 10px; border-left:2px solid brown;}
+.boton a{color:rgb(119, 119, 119)}
+body{
+    background-color:#fffbc1;
+}
+#logo{
+    margin-left: auto; margin-right: auto; border:3px dashed ;
+    border-radius:22px; border-width:5px; border-color: #ffa429;
+    
+}
+.boton:hover{font-weight: bold;}
+.Introduccion table{background-color: #f4eb99;border-color: #e07e70;
+    border-radius:22px; border-width: 5px; margin: 60px 200px}
+.Introduccion table h1{color: #ffa429; font-weight:bold}
+.Introduccion table span{color: #e20000; font-weight:bold}
+.Introduccion #contenedor b{color: #ffa429; font-weight:bold}
+.Introduccion table h4{text-decoration: underline; font-weight:bold;color:#92e0bb; }
+.Introduccion table h2{color: #ff6214; font-weight:bold}
+.Introduccion p{font-size:5mm; padding: 5px;}
+.Introduccion table #imagen_1{height: 100mm;}
+#footer, #Icon {
+    display: block;
+    position: relative;		
+    width: 120px;
+} 
+#footer #Siglas {
+    background-color: rgba(255,255,255,.8);
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 9;
+    padding: 5px;
+    width: 90%;
+  }
+#footer{position: inline;top: initial;display: flex; margin: 0; }
+footer{background-color: #eee66d;}
+
+.Footer{
+    display: flex; margin: auto;padding: 10px 130px; flex: 1 1 auto;
+}
+#Copyright td{
+    display: flex; flex-direction: row; }
+#Cuentas img{
+    padding-left: 5px; padding-right: 5px;
+}
+
+select{
+    background-color: #ffa429;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-color: #ff6214;
+    border-width:5px;
+    color: white;
+    font-weight:bold;
+}
+
+#modelos img {
+    width: 400px; height: 500px; text-align:center;
+    margin-right: 150px; margin-left: 150px;
+}
+
+#modelos{background-color: #f4eb99;border-color: #e07e70;
+    border-radius:22px; border-width: 5px; margin: 100px 10px;}
+#modelos th{background-color:#f1c37a; color:white;}
+#modelos h1{color: #ffa429; font-weight:bold}
+#modelos h4{text-decoration: underline; font-weight:bold;color:#92e0bb; }
+#modelos h2{color: #ff6214; font-weight:bold}
+#modelos p{font-size:5mm; padding: 5px;}
+#letrero{background-color: #f1e87e;
+    border-radius:22px; border-width: 10px; text-align: center; margin-left: 80mm;
+    margin-right: 80mm; margin-top: 20mm; margin-bottom: 20mm; border-color: black;
+    height: 70px}
+#software img {
+    width: 300px; height: 300px; text-align:center; margin-left: 30px; margin-left: 30px;
+    
+}
+#software th{background-color:#f1c37a; color:white;}
+h1{color: #ffa429; font-weight:bold}
+#trabajar p{
+    font-size: 20px;
+}
+
+.Introduccion #contenedor{
+  padding: 50px;
+}
+
+
+
